@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #ffaf53 !important;
+    color: #355c7d !important;
 }
 
 img {
@@ -108,7 +108,7 @@ h6 {
 }
 
 .navbar .active {
-    color: #ffaf53 !important;
+    color: #355c7d !important;
 }
 
 .navbar .navbar-brand {}
@@ -205,7 +205,8 @@ h6 {
 
 .banner-btn:hover {
     background: #ffffff;
-    color: #ab2f52;
+    color: #ab2f52 !important;
+    text-shadow: #000;
 }
 
 .section-padding {
@@ -301,7 +302,7 @@ h6 {
 }
 
 .anchor-btn:hover {
-    color: #ffaf53;
+    color: #ffaf53 !important;
     background-color: #fff;
     border: 1px solid #ffaf53;
 }
