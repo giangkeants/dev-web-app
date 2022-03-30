@@ -24,6 +24,14 @@ a {
     text-decoration: none !important;
 }
 
+.logg img {
+    height: 200px;
+    width: fit-content;
+    position: absolute;
+    left: 110px;
+    top: -20px;
+}
+
 a:hover {
     color: #355c7d !important;
 }
@@ -156,6 +164,8 @@ h6 {
 .nav-scroll .navbar-brand img {
     -webkit-transform: scale(1.03) !important;
     transform: scale(1.03) !important;
+    height: 71px;
+    top: -2px;
 }
 
 .nav-scroll .navbar-toggler {
@@ -283,7 +293,7 @@ h6 {
 }
 
 .sub-title-paragraph h5 {
-    color: #ffaf53;
+    color: #ab2f52;
 }
 
 .sub-title-paragraph p {
@@ -294,7 +304,7 @@ h6 {
 }
 
 .anchor-btn {
-    background: #ffaf53;
+    background: #ab2f52;
     padding: 10px 20px;
     color: #ffffff !important;
     border-radius: 3px;
@@ -302,9 +312,9 @@ h6 {
 }
 
 .anchor-btn:hover {
-    color: #ffaf53 !important;
+    color: #ab2f52 !important;
     background-color: #fff;
-    border: 1px solid #ffaf53;
+    border: 1px solid #ab2f52;
 }
 
 .bg-grey {
@@ -690,4 +700,13 @@ h6 {
     .banner-overlay {
         padding: 150px 0px 100px;
     }
+}
+
+
+/* login */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
