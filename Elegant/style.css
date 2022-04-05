@@ -44,6 +44,7 @@ img {
 
 .img-responsive {
     box-shadow: 10px 10px 10px #000;
+    border-radius: 20px;
 }
 
 span,
@@ -307,7 +308,7 @@ h6 {
     background: #ab2f52;
     padding: 10px 20px;
     color: #ffffff !important;
-    border-radius: 3px;
+    border-radius: 20px;
     margin-top: 30px;
 }
 

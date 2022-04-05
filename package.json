@@ -1,0 +1,25 @@
+{
+  "name": "dev-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giangkeants/dev-web-app.git"
+  },
+  "keywords": [
+    "giangkeants"
+  ],
+  "author": "giang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giangkeants/dev-web-app/issues"
+  },
+  "homepage": "https://github.com/giangkeants/dev-web-app#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
