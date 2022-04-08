@@ -10920,7 +10920,7 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #6c5b7b;
+    color: #c06c84;
 }
 
 a:hover,
@@ -10929,7 +10929,7 @@ a:focus {
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #fd7e14;
+    color: #355c7d;
 }
 
 h1,
@@ -10954,6 +10954,10 @@ h5,
 
 .ftco-section {
     padding: 7em 0;
+    background: url(../images/background_login.jpg);
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
 }
 
 .ftco-no-pt {
@@ -10965,8 +10969,9 @@ h5,
 }
 
 .heading-section {
-    font-size: 28px;
+    font-size: 50px;
     color: #000;
+    font-family: "FontAwesome";
 }
 
 .img {
@@ -10978,7 +10983,7 @@ h5,
 .login-wrap {
     position: relative;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
     -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
     box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
@@ -11152,12 +11157,13 @@ h5,
     background: linear-gradient( #355c7d, #6c5b7b, #c06c84) !important;
     border: 1px solid #fff !important;
     color: #fff !important;
+    transition: 1s all ease;
 }
 
 .btn.btn-primary:hover {
     border: 1px solid #fd7e14;
-    background: transparent;
-    color: #fd7e14;
+    background: linear-gradient( #c06c84, #6c5b7b, #355c7d) !important;
+    opacity: 0.8;
 }
 
 .btn.btn-primary.btn-outline-primary {
